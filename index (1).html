@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PMADEEL — Dream. Create. Inspire.">
+<title>PMADEEL | Official</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#070707;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:fixed;top:0;width:100%;z-index:10;background:rgba(7,7,7,.88);backdrop-filter:blur(12px);border-bottom:1px solid #2a210d}
+nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:25px;font-weight:900;letter-spacing:2px}.logo span{color:#e6b83f}
+.links{display:flex;gap:25px;font-size:14px}.links a:hover{color:#e6b83f}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:120px 20px 70px;background:radial-gradient(circle at 50% 35%,#34270b 0,#111 35%,#070707 70%)}
+.hero .box{max-width:850px}
+.badge{display:inline-block;border:1px solid #e6b83f;color:#e6b83f;padding:7px 16px;border-radius:30px;font-size:12px;letter-spacing:3px;margin-bottom:22px}
+h1{font-size:clamp(55px,12vw,120px);line-height:.95;letter-spacing:5px;background:linear-gradient(90deg,#fff,#e6b83f,#fff);-webkit-background-clip:text;color:transparent}
+.tag{font-size:20px;letter-spacing:6px;margin:20px 0 32px;color:#ddd}
+.btn{display:inline-block;padding:13px 24px;background:#e6b83f;color:#080808;font-weight:800;border-radius:7px;margin:5px}
+.btn.alt{background:transparent;color:#fff;border:1px solid #555}
+section{max-width:1100px;margin:auto;padding:85px 22px}
+.title{text-align:center;font-size:38px;margin-bottom:12px}.title span{color:#e6b83f}
+.sub{text-align:center;color:#aaa;margin-bottom:45px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{padding:28px;border:1px solid #332a16;border-radius:14px;background:linear-gradient(145deg,#111,#0a0a0a)}
+.card h3{color:#e6b83f;margin-bottom:10px}.card p{color:#bbb}
+.social{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+.social a{padding:13px 20px;border:1px solid #3a3a3a;border-radius:8px;background:#101010}
+.social a:hover{border-color:#e6b83f;color:#e6b83f}
+.contact{text-align:center;border:1px solid #332a16;border-radius:18px;background:#0d0d0d}
+footer{text-align:center;padding:30px 20px;color:#777;border-top:1px solid #222}
+.gold{color:#e6b83f}
+@media(max-width:700px){.links{display:none}.cards{grid-template-columns:1fr}.tag{font-size:14px;letter-spacing:3px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<a class="logo" href="#home">PM<span>ADEEL</span></a>
+<div class="links">
+<a href="#home">Home</a><a href="#about">About</a><a href="#social">Social</a><a href="#contact">Contact</a>
+</div>
+</nav>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="box">
+<div class="badge">OFFICIAL WEBSITE</div>
+<h1>PMADEEL</h1>
+<div class="tag">DREAM • CREATE • INSPIRE</div>
+<p style="color:#aaa;max-width:620px;margin:auto">Welcome to the official PMADEEL website — a place for creativity, digital content and inspiration.</p>
+<div style="margin-top:28px">
+<a class="btn" href="#social">FOLLOW PMADEEL</a>
+<a class="btn alt" href="#about">EXPLORE</a>
+</div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">ABOUT <span>PMADEEL</span></h2>
+<p class="sub">Build your name. Build your brand.</p>
+<div class="cards">
+<div class="card"><h3>CREATIVITY</h3><p>Turning ideas into content and projects that stand out.</p></div>
+<div class="card"><h3>LEARNING</h3><p>Always exploring new digital skills and opportunities.</p></div>
+<div class="card"><h3>INSPIRATION</h3><p>Creating things that motivate people to dream bigger.</p></div>
+</div>
+</section>
+
+<section id="social">
+<h2 class="title">FOLLOW <span>PMADEEL</span></h2>
+<p class="sub">Use your real profile links below.</p>
+<div class="social">
+<a href="#" onclick="alert('Add your YouTube link here');return false;">▶ YouTube</a>
+<a href="#" onclick="alert('Add your Instagram link here');return false;">◎ Instagram</a>
+<a href="#" onclick="alert('Add your TikTok link here');return false;">♪ TikTok</a>
+<a href="#" onclick="alert('Add your Facebook link here');return false;">f Facebook</a>
+<a href="#" onclick="alert('Add your X link here');return false;">𝕏 X</a>
+</div>
+</section>
+
+<section id="contact">
+<div class="contact">
+<h2 class="title">GET IN <span>TOUCH</span></h2>
+<p style="color:#aaa;margin-bottom:25px">For collaborations, business or other inquiries.</p>
+<a class="btn" href="mailto:your@email.com">CONTACT PMADEEL</a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 <span class="gold">PMADEEL</span>. All rights reserved.</footer>
+</body>
+</html>
